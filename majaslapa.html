@@ -12,7 +12,9 @@
             font-family:Helvetica;
             background-color:#0e161e;
             margin:0;
-            overflow: hidden;
+        }
+        ::-webkit-scrollbar{
+            display:none;
         }
          h1 {
             color:white;
@@ -64,7 +66,7 @@
             margin:auto;
             width:100%;
             padding:15px;
-            background-color:#173459;
+            background-color:#426088;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -97,7 +99,6 @@
             font-weight:bold;
             background-color: rgb(95, 170, 189);
             color: white;
-            border: 2px solid rgb(62, 102, 129);
             padding: 10px 20px;
             text-align: center;
             text-decoration: none;
@@ -106,7 +107,26 @@
         .htmlcardbutton a:hover, a:active {
             background-color: #6db5d1;
             color: rgb(0, 0, 0);
-            }
+        }
+        .csscard {
+            margin:auto;
+            width:100%;
+            padding:15px;
+            background-color:#598042;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .csscardimage {
+            position:static;
+            margin-left:250px;
+        }
+        .csscardtext h1{
+            font-size:60px;
+            text-align:right;
+            margin-right:570px;
+            font-weight:bolder;
+        }
         </style> 
     </head>
     <body>
@@ -134,6 +154,17 @@
                     <a href="html-lapa.html">Doties uz HTML!</a>
                 </div>
             </div>      
-        </div>  
+        </div> 
+        <div class="csscard">
+            <div class="csscardimage">
+                <img src="images/csslogo.png" alt="css logo" width="256px" height="256px">
+            </div>
+            <div class="csscardtext">
+                <h1>CSS</h1>
+                <div class="csscardp">
+                    <p>Labākais CSS krājums latviešu valodā!</p>
+                </div>
+            </div>
+        </div> 
     </body>
 </html>
