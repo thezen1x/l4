@@ -12,6 +12,7 @@
             font-family:Helvetica;
             background-color:#0e161e;
             margin:0;
+            overflow: hidden;
         }
          h1 {
             color:white;
@@ -47,29 +48,62 @@
         background-color: #047BAA;
         color: white;
         }
-        .firstcard {
+        .maincard {
             margin:auto;
             width:50%;
             padding:15px;
             text-align:center;
         }
-        .firstcard h1{
+        .maincard h1{
             font-size:60px;
         }
-        .firstcard p {
+        .maincard p {
             font-size:40px;
         }
-        .htmlbutton a:link, a:visited {
+        .htmlcard {
+            margin:auto;
+            width:100%;
+            padding:15px;
+            background-color:#173459;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .htmlcardtext h1{
+            font-size:60px;
+            text-align:right;
+            margin-right:570px;
+            font-weight:bolder;
+        }
+        .htmlcardimage img{
+            position:static;
+            margin-left:250px;
+            height:256px;
+            width:256px;
+        }
+        .htmlcardtext p{
+            font-size:30px;
+            text-align:center;
+            margin-left:400px;
+        }
+        .htmlcardp p{
+            margin-right:400px;
+        }
+        .htmlcardbutton{
+            margin-left:570px;
+        }
+        .htmlcardbutton a:link, a:visited {
+            border-radius:8px;
             font-weight:bold;
-            background-color: rgb(68, 125, 139);
+            background-color: rgb(95, 170, 189);
             color: white;
-            border: 2px solid rgb(100, 163, 206);
+            border: 2px solid rgb(62, 102, 129);
             padding: 10px 20px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
         }
-        .htmlbutton a:hover, a:active {
+        .htmlcardbutton a:hover, a:active {
             background-color: #6db5d1;
             color: rgb(0, 0, 0);
             }
@@ -82,13 +116,24 @@
             <a href="#">CSS</a>
             <a href="#">JS</a>
         </div>
-        <div class="firstcard">
+        <div class="maincard">
             <h1>L4 Internet
                 Skola</h1>
             <p>HTML, CSS un JS krājums latviešu valodā!</p>
-            <div class="htmlbutton">
-                <a href="html-lapa.html"> Iet uz HMTL!</a>
+        </div>      
+        <div class="htmlcard"> 
+            <div class="htmlcardimage">            
+                <img src="images/html5.png" alt="html5 logo">
             </div>
-        </div>        
+            <div class="htmlcardtext">
+                <h1>HTML</h1>
+                <div class="htmlcardp">
+                    <p>Labākais HTML krājums latviešu valodā!</p>  
+                </div>
+                <div class="htmlcardbutton">
+                    <a href="html-lapa.html">Doties uz HTML!</a>
+                </div>
+            </div>      
+        </div>  
     </body>
 </html>
