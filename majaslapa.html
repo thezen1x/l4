@@ -22,12 +22,6 @@
          p{
             color:white;
          }
-         a:visited, a:link{
-            color:white;
-         }
-         a:hover, a:active {
-            color:aqua;
-         }
          .topnav {
             font-family:Helvetica;
             font-weight:bold;
@@ -52,9 +46,9 @@
         }
         .maincard {
             margin:auto;
-            width:50%;
             padding:15px;
             text-align:center;
+            background-color:#42884b;
         }
         .maincard h1{
             font-size:60px;
@@ -65,52 +59,46 @@
         .htmlcard {
             margin:auto;
             padding:15px;
-            background-color:#426088;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            background-color:#884242;
         }
-        .htmlcardtext h1{
+        .htmltext h1 {
             font-size:60px;
             text-align:right;
-            margin-right:570px;
-            font-weight:bolder;
+            margin-right:540px;
         }
-        .htmlcardimage img{
-            position:static;
-            margin-left:250px;
-            height:256px;
-            width:256px;
-        }
-        .htmlcardtext p{
+        .htmlp{
             font-size:30px;
             text-align:center;
-            margin-left:400px;
-        }
-        .htmlcardp p{
+            margin-left:900px;
             margin-right:400px;
         }
-        .htmlcardbutton{
-            margin-left:550px;
+        .htmlimg img{
+            height:256px;
+            width:256px;
+            float:left;
+            margin-left:250px;
         }
-        .htmlcardbutton a:link, a:visited {
+        .htmlb {
+            margin-left:1068px;
+        }
+        .htmlb a:link, a:visited {
             border-radius:8px;
             font-weight:bold;
-            background-color: rgb(95, 170, 189);
+            background-color: #5faabd;
             color: white;
             padding: 10px 20px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
         }
-        .htmlcardbutton a:hover, a:active {
+        .htmlb a:hover, a:active {
             background-color: #6db5d1;
             color: black;
         }
         .csscard {
             margin:auto;
             padding:15px;
-            background-color:#428842;
+            background-color:#427288;
         }
         .csstext h1 {
             font-size:60px;
@@ -135,7 +123,7 @@
         .cssb a:link, a:visited {
             border-radius:8px;
             font-weight:bold;
-            background-color: rgb(95, 170, 189);
+            background-color: #5faabd;
             color: white;
             padding: 10px 20px;
             text-align: center;
@@ -143,6 +131,45 @@
             display: inline-block;
         }
         .cssb a:hover, a:active {
+            background-color: #6db5d1;
+            color: black;
+        }
+        .jscard {
+            margin:auto;
+            padding:15px;
+            background-color:#887542;
+        }
+        .jstext h1 {
+            font-size:60px;
+            text-align:right;
+            margin-right:500px;
+        }
+        .jsp{
+            font-size:30px;
+            text-align:center;
+            margin-left:900px;
+            margin-right:400px;
+        }
+        .jsimg img{
+            height:256px;
+            width:256px;
+            float:left;
+            margin-left:250px;
+        }
+        .jsb {
+            margin-left:1068px;
+        }
+        .jsb a:link, a:visited {
+            border-radius:8px;
+            font-weight:bold;
+            background-color: #5faabd;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .jsb a:hover, a:active {
             background-color: #6db5d1;
             color: black;
         }
@@ -160,20 +187,22 @@
                 Skola</h1>
             <p>HTML, CSS un JS krājums latviešu valodā!</p>
         </div>      
-        <div class="htmlcard"> 
-            <div class="htmlcardimage">            
-                <img src="images/html5.png" alt="html5 logo">
+        <div class="htmlcard">
+            <div class="htmlimg">
+                <img src="images/html5.png" alt="HTML5 Logo">
             </div>
-            <div class="htmlcardtext">
-                <h1>HTML</h1>
-                <div class="htmlcardp">
-                    <p>Labākais HTML krājums latviešu valodā!</p>  
+            <div class="htmltext">
+                <h1>
+                    HTML 5
+                </h1>
+                <div class="htmlp">
+                    <p>Labākais HTML5 krājums latviešu valodā!</p>
                 </div>
-                <div class="htmlcardbutton">
-                    <a href="html-lapa.html">Doties uz HTML!</a>
+                <div class="htmlb">
+                    <a href="html-lapa.html">Doties uz HTML5!</a>
                 </div>
-            </div>      
-        </div> 
+            </div>
+        </div>
         <div class="csscard">
             <div class="cssimg">
                 <img src="images/csslogo.png" alt="CSS Logo">
@@ -187,6 +216,22 @@
                 </div>
                 <div class="cssb">
                     <a href="css-lapa.html">Doties uz CSS!</a>
+                </div>
+            </div>
+        </div>
+        <div class="jscard">
+            <div class="jsimg">
+                <img src="images/jslogo.png" alt="JS Logo">
+            </div>
+            <div class="jstext">
+                <h1>
+                    JavaScript
+                </h1>
+                <div class="jsp">
+                    <p>Labākais JavaScriptu krājums latviešu valodā!</p>
+                </div>
+                <div class="jsb">
+                    <a href="js-lapa.html">Doties uz JS!</a>
                 </div>
             </div>
         </div>
