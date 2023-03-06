@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="icon" type="image/x-icon" href="images/icon.jpg">
+        <script src="https://kit.fontawesome.com/fe50138296.js" crossorigin="anonymous"></script>
         <title>
             L4 Internet-Skola
         </title>
@@ -41,73 +42,50 @@
                text-decoration:none;
             }
             .topnav a:hover {
-            background-color: #19b7e300;
-            color: rgba(233, 243, 51, 0.927);
-        }
-        .topnav a.active {
-        background-color: #047baa00;
-        color: rgba(224, 243, 9, 0.996);
-        }
-           .maincard {
-               margin:auto;
-               width:50%;
-               padding:15px;
-               text-align:center;
-           }
-           .maincard h1{
-               font-size:60px;
-           }
-           .maincard p {
-               font-size:40px;
-           }
-           .htmlcard {
-               margin:auto;
-               width:100%;
-               padding:15px;
-               background-color:#426088;
-               display: flex;
-               align-items: center;
-               justify-content: center;
-           }
-           .htmlcardtext h1{
-               font-size:60px;
-               text-align:right;
-               margin-right:570px;
-               font-weight:bolder;
-           }
-           .htmlcardimage img{
-               position:static;
-               margin-left:250px;
-               height:256px;
-               width:256px;
-           }
-           .htmlcardtext p{
-               font-size:30px;
-               text-align:center;
-               margin-left:400px;
-           }
-           .htmlcardp p{
-               margin-right:400px;
-           }
-           .htmlcardbutton{
-               margin-left:572px;
-           }
-           .htmlcardbutton a:link, a:visited {
-               border-radius:8px;
-               font-weight:bold;
-               background-color: rgb(95, 170, 189);
-               color: white;
-               padding: 10px 20px;
-               text-align: center;
-               text-decoration: none;
-               display: inline-block;
-           }
-           .htmlcardbutton a:hover, a:active {
-               background-color: #6db5d1;
-               color: rgb(0, 0, 0);
-           }
-           </style> 
-        <script src="https://kit.fontawesome.com/fe50138296.js" crossorigin="anonymous"></script>
+                background-color: #19b7e300;
+                color: rgba(233, 243, 51, 0.927);
+            }
+            .topnav a.active {
+                background-color: #047baa00;
+                color: rgba(224, 243, 9, 0.996);
+            }
+            .maincard {
+                margin:auto;
+                padding:15px;
+                text-align:center;
+                background-color:#42884b;
+            }
+            .maincard h1{
+                font-size:60px;
+            }
+            .maincard p {
+                font-size:40px;
+            }
+            .jscard {
+                margin:auto;
+                padding:15px;
+                background-color:#887542;
+            }
+            .jstext h1 {
+                font-size:60px;
+                text-align:center;
+                margin-right:300px;
+                margin-left:800px;
+            }
+            .jsp{
+                color:white;
+                font-size:30px;
+                text-align:center;
+                margin-left:900px;
+                margin-right:400px;
+            }
+            .jsimg img{
+                float:left;
+                height:256px;
+                width:256px;
+                margin-left:250px;
+            }
+    </style> 
     </head>
     <body>
         <div class="topnav">        
@@ -116,9 +94,25 @@
             <a href="css-lapa.html">CSS</a>
             <a class="active" href="js-lapa.html">JS</a>
         </div>
-        <h1>
-            Te vēl nekā nav...
-        </h1>
-        <a href="majaslapa.html">Doties Atpakaļ?</a>
+        <div class="maincard">
+            <h1>L4 Internet
+                Skola</h1>
+            <p><i>Jūs tagad aplukosiet informāciju par JavaScript!</i></p>
+        </div>  
+        <div class="jscard">
+            <div class="jsimg">
+                <img src="images/jslogo.png" alt="JS Logo">
+            </div>
+            <div class="jstext">
+                <h1>
+                    Kas ir Javascript?
+                </h1>
+                <div class="jsp">
+                    <p>JavaScript ir tīmekļa programmēšanas valoda.</p>
+                    <p>JavaScript var atjaunināt un mainīt gan HTML, gan CSS.</p>
+                    <p>JavaScript var aprēķināt, manipulēt un apstiprināt datus.!</p>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
