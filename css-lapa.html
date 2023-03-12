@@ -2,31 +2,32 @@
 <html>
     <head>
         <link rel="icon" type="image/x-icon" href="images/icon.jpg">
+        <script src="https://kit.fontawesome.com/fe50138296.js" crossorigin="anonymous"></script>
         <title>
             L4 Internet-Skola
         </title>
-         <style>
-         body {
-            font-family:Helvetica;
-            background-color:#0e161e;
-            margin:0;
-        }
-        ::-webkit-scrollbar{
-            display:none;
-        }
-         h1 {
-            color:white;
-         }
-         p{
-            color:white;
-         }
-         a:visited, a:link{
-            color:white;
-         }
-         a:hover, a:active {
-            color:aqua;
-         }
-         .topnav {
+        <style>
+            body {
+               font-family:Helvetica;
+               background-color:#272727;
+               margin:0;
+           }
+           ::-webkit-scrollbar{
+               display:none;
+           }
+            h1 {
+               color:white;
+            }
+            p{
+               color:white;
+            }
+            a:visited, a:link{
+               color:white;
+            }
+            a:hover, a:active {
+               color:aqua;
+            }
+            .topnav {
             width:100%;
             font-family:Helvetica;
             font-weight:bold;
@@ -36,143 +37,113 @@
             top: 0;
             z-index:1;
          }
-         .topnav a {
-            float: left;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 16px;
-            font-size: 30px;
-            text-decoration:none;
-         }
-         .topnav a:hover {
-            background-color: #19b7e300;
-            color: rgb(82, 154, 216);
-        }
-        .topnav a.active {
-        background-color: #047baa00;
-        color: rgb(36, 148, 218);
-        }
-        .topnavlimited {
+            .topnav a {
+               float: left;
+               color: #f2f2f2;
+               text-align: center;
+               padding: 14px 16px;
+               font-size: 30px;
+               text-decoration:none;
+            }
+            .topnav a:hover {
+                background-color: #19b7e300;
+                color: rgba(233, 243, 51, 0.927);
+            }
+            .topnav a.active {
+                background-color: #047baa00;
+                color: rgba(224, 243, 9, 0.996);
+            }
+            .topnavlimited {
             float:right;
             margin-right:30px;
-        }
-        .maincard {
-            margin:auto;
-            padding:15px;
-            text-align:center;
-            background-color:#42884b;
-        }
-        .maincard h1{
-            font-size:60px;
-        }
-        .maincard p {
-            font-size:40px;
-        }
-        .htmlcard {
-            margin:auto;
-            width:100%;
-            padding:15px;
-            background-color:#426088;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .htmlcardtext h1{
-            font-size:60px;
-            text-align:center;
-            margin-right:570px;
-            font-weight:bolder;
-        }
-        .htmlcardimage img{
-            position:static;
-            margin-left:250px;
-            height:256px;
-            width:256px;
-        }
-        .htmlcardtext p{
-            font-size:30px;
-            margin-right:800px;
-            margin-left: 200px;
-        }
-        .htmlcardp p{
-            text-align: center;
-        }
-        .htmlcardbutton{
-            margin-left:572px;
-        }
-        .htmlcardbutton a:link, a:visited {
-            border-radius:8px;
-            font-weight:bold;
-            background-color: rgb(95, 170, 189);
-            color: white;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-        }
-        .htmlcardbutton a:hover, a:active {
-            background-color: #6db5d1;
-            color: rgb(0, 0, 0);
-        }
-        .bottomcard {
-            padding:5px;
-            position:relative;
-            height:75px;
-            background-color:#272727;
-        }
-        .bottomcard p{
-            margin-top:30px;
-            color:#6d6d6d;
-            font-weight:bold;
-            margin-left:46%;
-            position:absolute;
-        }
-        .bottomcardb {
-            position:absolute;
-            font-size:35px;
-            padding:15px;
-        }
-        .bottomcardb a{
-            color:#6d6d6d;
-        }
-        .bottomcardb a:hover {
-            color:white;
-        }
-
+            }
+            .maincard {
+                margin-top:46px;
+                padding:15px;
+                text-align:center;
+                background-color:#42884b;
+            }
+            .maincard h1{
+                font-size:60px;
+            }
+            .maincard p {
+                font-size:40px;
+            }
+            .csscard {
+                margin:auto;
+                padding:15px;
+                background-color:#427288;
+            }
+            .csstext h1 {
+                font-size:60px;
+                text-align:center;
+                margin-right:300px;
+                margin-left:800px;
+            }
+            .cssp{
+                color:white;
+                font-size:30px;
+                text-align:center;
+                margin-left:900px;
+                margin-right:400px;
+            }
+            .cssimg img{
+                float:left;
+                height:256px;
+                width:256px;
+                margin-left:250px;
+            }
+            .bottomcard {
+                padding:5px;
+                position:relative;
+                height:75px;
+                background-color:#272727;
+            }
+            .bottomcard p{
+                margin-top:30px;
+                color:#6d6d6d;
+                font-weight:bold;
+                margin-left:46%;
+                position:absolute;
+            }
+            .bottomcardb {
+                position:absolute;
+                font-size:35px;
+                padding:15px;
+            }
+            .bottomcardb a{
+                color:#6d6d6d;
+            }
+            .bottomcardb a:hover {
+                color:white;
+            }
         </style> 
-        <script src="https://kit.fontawesome.com/fe50138296.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="topnav">        
             <a href="majaslapa.html"><i class="fa-solid fa-house"></i></a> <!-- lūk kur icona ir -->
-            <a href="html-lapa.html">HTML</a>
-            <a class="active" href="css-lapa.html">CSS</a>
-            <a href="js-lapa.html">JS</a>
+            <a class href="html-lapa.html">HTML</a>
+            <a href="css-lapa.html">CSS</a>
+            <a class="active" href="js-lapa.html">JS</a>
             <div class="topnavlimited">
                 <a href="aptauja.html"><i class="fa-solid fa-star"></i> Aptauja <i class="fa-solid fa-star"></i></a>
             </div>
-        </div>  
-         
+        </div>
         <div class="maincard">
             <h1>L4 Internet
                 Skola</h1>
-            <p><i>Jūs tagad aplukosiet informāciju par CSS</i> </p>
-        </div>      
-        <div class="htmlcard"> 
-            <div class="htmlcardimage">            
-                <img src="images/csslogo.png" alt="html5 logo">
+            <p><i>Jūs tagad aplukosiet informāciju par CSS!</i></p>
+        </div>  
+        <div class="csscard">
+            <div class="cssimg">
+                <img src="images/csslogo.png" alt="CSS Logo">
             </div>
-            <div class="htmlcardtext">
-                <h1>Kas ir CSS?</h1>
-                <div class="htmlcardp">
-                    <p>CSS Palīdz HTML un citiem līdzekļiem noteik stilu vai noformējumu kaut kam, piemēram tekstam vai pogai.</p>
-                <div class="htmlcardtext">
-                <h1>Kādos veidos var noformēt?</h1>
-                <div class="htmlcardp">
-                    <p>Pats vieglākajs ir izmantojot online redaktorus piemēram <i>Glitch</i> vai <i>W3 School.</i> </p>
-                    <a></a>
-                </div>
-                </div>
+            <div class="csstext">
+                <h1>
+                    Kas ir CSS?
+                </h1>
+                <div class="cssp">
+                    <p>Cascading Style Sheets ir stila lapas valoda, ko izmanto, lai aprakstītu dokumenta noformējumu, kas rakstīts iezīmēšanas valodā, piemēram, HTML vai XML. CSS ir globālā tīmekļa stūrakmens tehnoloģija līdzās HTML un JavaScript.</p>
                 </div>
             </div>
         </div>
